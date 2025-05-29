@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Assignment-9</title></head>
+    <body bgcolor="lightgreen">
+        <form method="post">
+            <fieldset>
+                <legend align="center"><font size="5">USER FORM</font></legend>
+                <table align="center" bgcolor="lime">
+                    <tr>
+                        <td>• FIRST NAME</td>
+                        <td><input type="text" name="firstname" /></td>
+                    </tr>
+                    <tr>
+                        <td>• PASSWORD</td>
+                        <td><input type="password" name="password" /></td>
+                    </tr>
+                    <tr>
+                        <td>• GENDER</td>
+                        <td>
+                            <input type="radio" name="gender" value="Male" /> Male
+                            <input type="radio" name="gender" value="Female" /> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>• ADDRESS</td>
+                        <td><textarea name="address" rows="4" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>• D.O.B</td>
+                        <td>
+                            <select name="dob_month">
+                                <option>Jan</option>
+                                <option>Feb</option>
+                                <option>Mar</option>
+                                <option>Apr</option>
+                                <option>May</option>
+                                <option>Jun</option>
+                                <option>Jul</option>
+                                <option>Aug</option>
+                                <option>Sep</option>
+                                <option>Oct</option>
+                                <option>Nov</option>
+                                <option>Dec</option>
+                            </select>
+                            <select name="dob_day">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <!-- Add more days as needed -->
+                            </select>
+                            <select name="dob_year">
+                                <option>1990</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <!-- Add more years as needed -->
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>• SELECT GAMES</td>
+                        <td>
+                            <input type="checkbox" name="games" value="Hockey" /> Hockey
+                            <input type="checkbox" name="games" value="Football" /> Football
+                            <input type="checkbox" name="games" value="Cricket" /> Cricket
+                            <input type="checkbox" name="games" value="VolleyBall" /> VolleyBall
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>• MARITAL STATUS</td>
+                        <td>
+                            <input type="radio" name="marital" value="Married" /> Married
+                            <input type="radio" name="marital" value="Unmarried" /> Unmarried
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox" name="agree" />
+                            I accept this agrement
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
